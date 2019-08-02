@@ -8,7 +8,7 @@ server.use(express.json());
 server.use('/api/posts', BlogPostsRouter);
 
 server.get('/', (req, res) => {
-    console.log('Server running on port 4000.');
+    console.log('Server is running');
 })
 
 module.exports = server;
